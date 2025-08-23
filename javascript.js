@@ -12,3 +12,13 @@ function getComputerChoice(){
   }
 }
 console.log(getComputerChoice())
+//ask the user with prompt
+//save the answer in a variable
+//return that variable
+function getHumanChoice(){
+let choice = prompt("Please type rock, paper or scissors:");
+return choice;
+}
+console.log(getHumanChoice())
+let humanScore = 0
+let computerScore = 0
