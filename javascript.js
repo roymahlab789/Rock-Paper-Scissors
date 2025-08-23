@@ -22,3 +22,14 @@ return choice;
 console.log(getHumanChoice())
 let humanScore = 0
 let computerScore = 0
+
+function playRound(humanChoice, computerChoice){
+humanChoice = humanChoice.toLowerCase();
+console.log("You lose! Paper beats Rock");
+}
+
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice
+
+playRound(humanSelection, computerSelection)
+
